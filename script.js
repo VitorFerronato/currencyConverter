@@ -17,6 +17,8 @@ function display(data) {
     }
 }
 
+
+
 btn.addEventListener('click', () => {
     let currency1 = select[0].value
     let currency2 = select[1].value 
@@ -28,6 +30,8 @@ btn.addEventListener('click', () => {
         alert('Chose Diffrent Currency')
     }
 })
+
+
 
 function convert(currency1, currency2, value) {
     const host = 'api.frankfurter.app'
